@@ -1,0 +1,43 @@
+{
+  "name": "eslint-plugin-redux",
+  "version": "1.0.0",
+  "author": "Tom Hastjarjanto <tom@intellicode.nl>",
+  "description": "Redux specific linting rules for ESLint",
+  "main": "index.js",
+  "scripts": {
+    "coveralls": "cat ./reports/coverage/lcov.info | coveralls",
+    "lint": "eslint ./lib && eslint ./tests",
+    "test": "npm run lint && npm run unit-test",
+    "unit-test": "istanbul cover --dir reports/coverage node_modules/mocha/bin/_mocha tests/**/*.js -- --reporter dot"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intellicode/eslint-plugin-redux"
+  },
+  "homepage": "https://github.com/intellicode/eslint-plugin-redux",
+  "bugs": "https://github.com/intellicode/eslint-plugin-redux/issues",
+  "devDependencies": {
+    "babel-eslint": "6.0.0",
+    "coveralls": "2.11.4",
+    "eslint": "2.5.1",
+    "eslint-config-airbnb": "6.2.0",
+    "eslint-plugin-react": "4.2.3",
+    "istanbul": "0.4.0",
+    "mocha": "2.3.3"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "react",
+    "react-native",
+    "react native"
+  ],
+  "license": "MIT"
+}
