@@ -28,7 +28,7 @@
     "eslint": "2.13.1",
     "eslint-config-airbnb": "9.0.1",
     "eslint-plugin-react": "5.2.2",
-    "istanbul": "0.4.4",
+    "istanbul": "0.4.5",
     "mocha": "2.5.3"
   },
   "keywords": [
