@@ -2,6 +2,8 @@
 ESLint plugin for Redux
 ==============================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Intellicode/eslint-plugin-redux.svg)](https://greenkeeper.io/)
+
 [![Maintenance Status][status-image]][status-url] [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][deps-image]][deps-url] [![Coverage Status][coverage-image]][coverage-url] [![Code Climate][climate-image]][climate-url]
 
 Redux specific linting rules for ESLint.
