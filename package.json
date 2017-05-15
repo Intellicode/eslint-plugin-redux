@@ -23,13 +23,13 @@
   "homepage": "https://github.com/intellicode/eslint-plugin-redux",
   "bugs": "https://github.com/intellicode/eslint-plugin-redux/issues",
   "devDependencies": {
-    "babel-eslint": "6.0.5",
-    "coveralls": "2.11.9",
-    "eslint": "2.13.1",
-    "eslint-config-airbnb": "9.0.1",
-    "eslint-plugin-react": "5.2.2",
-    "istanbul": "0.4.4",
-    "mocha": "2.5.3"
+    "babel-eslint": "7.2.3",
+    "coveralls": "2.13.1",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "15.0.0",
+    "eslint-plugin-react": "7.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "3.4.1"
   },
   "keywords": [
     "eslint",
